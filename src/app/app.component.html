@@ -1,4 +1,4 @@
 <p>Hello</p>
-<app-snapface></app-snapface>
-<app-snapface></app-snapface>
-<app-snapface></app-snapface>
+<app-snapface [faceSnap]="mySnap"></app-snapface>
+<app-snapface [faceSnap]="myOtherSnap" *ngIf="myOtherSnap.snaps < 5"></app-snapface>
+<app-snapface [faceSnap]="myLastSnap"></app-snapface>
