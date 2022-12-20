@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MoreComponent } from './components/more/more.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { SingleFaceSnapComponent } from './components/single-face-snap/single-face-snap.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     MoreComponent,
     FaceSnapComponent,
     LandingPageComponent,
+    SingleFaceSnapComponent,
   ],
   imports: [
     BrowserModule,
