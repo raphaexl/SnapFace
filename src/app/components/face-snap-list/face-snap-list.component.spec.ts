@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SnapfaceComponent } from './snapface.component';
+import { FaceSnapListComponent } from './face-snap-list.component';
 
-describe('SnapfaceComponent', () => {
-  let component: SnapfaceComponent;
-  let fixture: ComponentFixture<SnapfaceComponent>;
+describe('FaceSnapListComponent', () => {
+  let component: FaceSnapListComponent;
+  let fixture: ComponentFixture<FaceSnapListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SnapfaceComponent ]
+      declarations: [ FaceSnapListComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SnapfaceComponent);
+    fixture = TestBed.createComponent(FaceSnapListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

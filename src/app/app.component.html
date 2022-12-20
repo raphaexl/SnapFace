@@ -1,7 +1,4 @@
-<p>{{454548.5628 | number}}</p>
-<p>{{454548.5628 | number:'1.0-0'}}</p>
-<p>{{1.0058| percent:'1.0-1'}} de benefice</p>
-<p>Gagnez jusqu a {{1000000| currency:'EUR'}} depuis votre domicile</p>
-<p>Gagnez jusqu a {{1100000| currency:'DOLLAR': 'code'}} depuis votre domicile</p>
-
-<app-snapface *ngFor="let faceSnap of faceSnaps" [faceSnap]="faceSnap"></app-snapface>
+<app-header></app-header>
+<main>
+  <router-outlet></router-outlet>
+</main>
