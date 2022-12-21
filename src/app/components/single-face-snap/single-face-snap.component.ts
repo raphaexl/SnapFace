@@ -28,6 +28,7 @@ export class SingleFaceSnapComponent {
     }else{
       this.faceSnapeService.snapFaceSnapById(this.faceSnap.id,'snap' );
     }
+    this.snapped = !this.snapped;
     //this.faceSnap.snaps = this.snapped ? this.faceSnap.snaps - 1 : this.faceSnap.snaps + 1;
   }
 }

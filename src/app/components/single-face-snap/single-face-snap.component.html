@@ -6,7 +6,7 @@
             <p> Mis en ligne le {{ faceSnap.createdDate|date:'a HH:mm, le d MMMM yyyy'}} </p>
     -->
     <p>{{ faceSnap.description }}</p>
-    <p><button (click)="onAddSnap()">{{ snapped ? "Oops, un snap" : "Oh snap"}}</button>
+    <p><button (click)="onAddSnap()">{{ snapped ? "Oops, unsnap" : "Oh snap"}}</button>
          <span [ngStyle]="{color: 'rgb(0, '+faceSnap.snaps + ', 0)'}">🤌 {{ faceSnap.snaps }}</span>
         </p>
     <img [src]='faceSnap.imageUrl' [alt]='faceSnap.title'>
